@@ -1,0 +1,57 @@
+.container {
+    width: 1000px;
+    border: .2px solid gray;
+    border-radius: 0.6rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-weight: 300;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: white;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 0;
+}
+
+.navGroup {
+    width: 45%;
+    margin: 0 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.navGroup > li > a {
+    text-decoration: none;
+    transition: .3s;
+}
+
+.navGroup > li > a:hover {
+    color: #F2CB05;
+}
+
+.navGroupLeft {
+    justify-content: start;
+    margin-right: 2rem;
+}
+
+.navGroupRight {
+    justify-content: end;
+    margin-left: 2rem;
+}
+
+.navGroupLeft > li {
+    margin-right: 2rem;
+}
+
+.navGroupRight > li {
+    margin-left: 2rem;
+}
+
+.logo {
+    font-weight: 300;
+    font-size: 1.6rem;
+}
