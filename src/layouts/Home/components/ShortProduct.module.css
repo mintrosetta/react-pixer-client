@@ -1,0 +1,46 @@
+.card {
+    width: 12rem;
+}
+
+.cardImage > img {
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 1.5rem;
+}
+
+.cardPrice {
+    text-align: end; 
+    margin: 0.6rem 0;
+}
+
+.cardPrice > p {
+    color: #267365;
+}
+
+.cardAgreement {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.cardAgreement > .agreementStatusAccept {
+    width: 1rem;
+    height: 1rem;
+    background-color: #F29F05;
+    border-radius: 50%;
+    margin-right: .5rem;
+}
+
+.cardAgreement > .agreementStatusReject {
+    width: 1rem;
+    height: 1rem;
+    background-color: #808080;
+    border-radius: 50%;
+    margin-right: .5rem;
+}
+
+.cardAgreement > .agreementName {
+    font-size: 1rem;
+    font-weight: 300;
+}
