@@ -141,3 +141,7 @@ table {
 	font-style: normal;
 	color: #808080;
 }
+
+input:focus {
+	outline: none;
+}

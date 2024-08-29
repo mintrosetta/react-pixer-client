@@ -1,18 +1,18 @@
-.loginContainer {
+.formContainer {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.loginCard {
+.formCard {
     background-color: white;
     padding: 2rem 4rem;
     border-radius: 2rem;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
-.loginHeader {
+.formHeader {
     text-align: center;
     margin-bottom: 2rem;
     font-weight: 700;
@@ -20,7 +20,7 @@
 }
 
 .inputGroup {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .inputGroup > label {
@@ -35,12 +35,16 @@
     border-radius: 0.6rem;
 }
 
-.loginButtonGroup {
+.inputGroup > input[type="email"], input[type="text"] {
+    font-weight: 300;
+}
+
+.formButtonGroup {
     display: flex;
     justify-content: center;
 }
 
-.loginButtonGroup > .loginBtn {
+.formButtonGroup > .formBtn {
     width: 100%;
     margin-top: 2rem;
     padding: 0.7rem 0;
@@ -50,8 +54,9 @@
     border-radius: 0.6rem;
     transition: .3s;
     cursor: pointer;
+    font-weight: bold;
 }
 
-.loginBtn:hover {
+.formBtn:hover {
     background-color: #dab500;
 }
