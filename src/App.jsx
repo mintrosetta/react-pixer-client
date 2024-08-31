@@ -3,6 +3,7 @@ import Home from './layouts/Home/Home'
 import Login from './layouts/Login/Login'
 import Register from './layouts/Register/Register'
 import Navbar from './components/commons/Navbar'
+import Product from './layouts/Product/Product'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route path='' element={<Home />} />
             <Route path='/login' element={<Login />} />
             <Route path='/register' element={<Register />} />
+            <Route path='/product/:productId' element={<Product />} />
           </Routes>
         </BrowserRouter>
       </main>
