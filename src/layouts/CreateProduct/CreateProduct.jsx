@@ -82,7 +82,7 @@ export default function CreateProduct() {
                     <img src={imagePreview} alt=""/>
                     <div>
                         <input type='file' id='upload-image' hidden onChange={imagePreviewHandler}/>
-                        <label htmlFor="upload-image" className={styles.uploadImgBtn}>upload</label>
+                        <label htmlFor="upload-image" className={styles.uploadImgBtn}>upload image</label>
                     </div>
                 </div>
                 <div className={styles.productDetailGroup}>

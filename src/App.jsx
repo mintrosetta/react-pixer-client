@@ -5,6 +5,7 @@ import Register from './layouts/Register/Register'
 import Navbar from './components/commons/Navbar'
 import Product from './layouts/Product/Product'
 import CreateProduct from './layouts/CreateProduct/CreateProduct'
+import Profile from './layouts/Profile/Profile'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path='/register' element={<Register />} />
             <Route path='/product/create' element={<CreateProduct />} />
             <Route path='/product/:productId' element={<Product />} />
+            <Route path='/profile/:username' element={<Profile />} />
           </Routes>
         </BrowserRouter>
       </main>
