@@ -1,0 +1,111 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.createProductContainer {
+    margin-top: 7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.productImgGroup > img {
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.uploadImgBtn {
+    display: block;
+    background-color: #F29F05;
+    padding: 1rem 0;
+    margin: 1rem 0;
+    color: white;
+    text-align: center;
+    border-radius: .7rem;
+}
+
+.priceGroup {
+    margin-bottom: 2rem;
+}
+
+.priceGroup > .priceTitle {
+    font-weight: 300;
+    margin-bottom: .5rem;
+}
+
+.priceGroup > .price {
+    border: none;
+    border-bottom: 1px solid #808080;
+    padding: .3rem;
+    font-size: 2rem;
+    width: 80%;
+}
+
+.agreementGroup {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.agreementGroup > button {
+    width: 10rem;
+    padding: .5rem 2rem;
+    text-align: center;
+    background-color: white;
+    transition: .3s;
+}
+
+.agreementDefault {
+    border: 1px solid #808080;
+    border-radius: .5rem;
+}
+
+.agreementSelected {  
+    border: 1px solid #F29F05;
+    color: #F29F05;
+    border-radius: .5rem;
+}
+
+.descriptionGroup {
+    margin-bottom: 2rem;
+    width: 100%;
+
+}
+
+.descriptionGroup > .descriptionTitle {
+    font-weight: 300; 
+    margin-bottom: .5rem;
+}
+
+.descriptionGroup > .descriptionContent {
+    resize: none;
+    border: 1px solid #808080;
+    height: 5rem;
+    outline: none;
+    padding: 0;
+    width: 80%;
+    border: 1px solid #808080;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.btnGroup {
+    width: 100%;
+}
+
+.btnGroup > .saleBtn {
+    width: 80%;
+    padding: .5rem 0;
+    background-color: #F29F05;
+    border: none;
+    border-radius: .5rem;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.saleBtn:hover {
+    background-color: #da8d00;
+}

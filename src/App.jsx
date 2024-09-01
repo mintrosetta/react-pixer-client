@@ -4,6 +4,7 @@ import Login from './layouts/Login/Login'
 import Register from './layouts/Register/Register'
 import Navbar from './components/commons/Navbar'
 import Product from './layouts/Product/Product'
+import CreateProduct from './layouts/CreateProduct/CreateProduct'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path='' element={<Home />} />
             <Route path='/login' element={<Login />} />
             <Route path='/register' element={<Register />} />
+            <Route path='/product/create' element={<CreateProduct />} />
             <Route path='/product/:productId' element={<Product />} />
           </Routes>
         </BrowserRouter>
